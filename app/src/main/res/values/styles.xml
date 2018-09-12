@@ -1,0 +1,79 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="textview_1">
+        <item name="android:layout_width">208dp</item>
+        <item name="android:layout_height">43dp</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">Relative Layout</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="textview_2">
+        <item name="android:layout_width">214dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">246dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">Quiapo Church</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="textview_3_1">
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_marginBottom">172dp</item>
+        <item name="android:text">Santa Clara St Fort Santiago</item>
+        <item name="android:layout_width">311dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+
+    <style name="textview_3_2">
+        <item name="android:layout_marginTop">-172dp</item>
+        <item name="android:text">3.8 km from UST</item>
+        <item name="android:layout_width">311dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+
+    <style name="button_1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_marginBottom">29dp</item>
+        <item name="android:layout_marginStart">41dp</item>
+        <item name="android:text">Back</item>
+    </style>
+
+    <style name="button_2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_marginEnd">41dp</item>
+        <item name="android:text">Next</item>
+    </style>
+
+    <style name="image_1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">220dp</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+
+</resources>
